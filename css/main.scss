@@ -8,7 +8,7 @@ body{
     font-family: 'Montserrat';
 }
 a{
-    color: #fff;
+    color: rgb(202, 95, 95);
     text-decoration: none;
 }
 ul{
@@ -17,5 +17,27 @@ ul{
     padding: 0;
 }
 .hero-wrapper{
+    background:url('/img/photo_2021-03-18_14-54-33.jpg');
+    background-size: cover;
     
+}
+.wrapper{
+    padding: 1.5em;
+    max-width: 1200px;
+
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    .logo{
+        font-weight: blod;
+        }
+    ul{
+        display: flex;
+         
+        li a{
+            
+      padding: 0 .6em;
+        }
+    }
 }
