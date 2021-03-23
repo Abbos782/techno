@@ -14,9 +14,7 @@
 .navbar {
   padding: 25px 0;
   background-color: #0B0B0B;
-  background-image: url("../img/photo_2021-03-18_14-54-33.jpg");
   background-size: cover;
-  height: 100vh;
 }
 
 .navbar-header {
@@ -102,5 +100,89 @@
   border-radius: 20px;
   color: #fff;
   font-weight: normal;
+}
+
+.future {
+  padding-top: 50px;
+  background-color: #0B0B0B;
+  color: #fff;
+  font-family: Metropolis;
+}
+
+.future .future__text {
+  width: 45%;
+}
+
+.future .future__text .tech button {
+  color: #FCD14A;
+  font-size: 32px;
+  background: linear-gradient(46.49deg, #312708 3.72%, #3f2711 92.61%);
+  font-weight: 700;
+  padding: 5px 20px;
+  border-radius: 30px;
+  border: none;
+}
+
+.future .future__text .future__title {
+  height: 312px;
+  left: 1.92%;
+  right: 55.78%;
+  top: calc(50% - 312px/2 - 148.5px);
+  font-family: Space Grotesk;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 104px;
+  line-height: 104px;
+}
+
+.future .future__text p {
+  font-family: Metropolis;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 35px;
+  margin: 20px 0;
+  color: #B4B4B4;
+}
+
+.future .future__text .btn {
+  width: 75%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.future .future__text .btn .btn-left {
+  background: linear-gradient(227.58deg, #E5941F 0%, #D66801 95.66%);
+  border-radius: 29.6376px;
+  border: none;
+  padding: 10px 25px;
+  color: #fff;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+}
+
+.future .future__text .btn .btn-right {
+  background: transparent;
+  border-radius: 29.6376px;
+  border: 2px solid #D66801;
+  padding: 10px 25px;
+  color: #fff;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
 }
 /*# sourceMappingURL=main.css.map */
